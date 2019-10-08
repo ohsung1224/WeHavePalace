@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      a {
+        color:green;
+        text-decoration:none;
+      }
+      .saw {
+        color: gray;
+      }
+      #active {
+        color: blue;
+      }
+      /*      h1 tag -> block level element      */
+      h1 {
+
+        border-width: 5px;
+        border-color: lightblue;
+        border-style: solid;
+        padding: 10px;
+        margin: 20px;
+        display: block;
+      }
+      /*      a tag -> inline element      */
+      h1, a {
+        text-align: center;
+      }
+
+      #cssTest {
+        border-width: 5px;
+        border-color: red;
+        border-style: solid;
+        padding: 20px;
+        margin: 30px;
+        width: 200px;
+      }
+    </style>
+    <title>WeHavePalace</title>
+  </head>
+  <body>
+    <h1><a href="index.html">WeHavePalace</a></h1>
+    <!--
+      <h1><a href="index.html"><font color="green">Home</font></a></h1>
+    -->
+    <ol>
+      <li><a href="http://www.naver.com" target="_blank" class="saw">네이버</a></li>
+      <li><a href="http://www.daum.net" target="_blank" class="saw" id="active">다음</a></li>
+      <li><a href="http://nikemania.com" style="text-decoration:underline; color:red;">나이키매니아</a></li>
+      <li><a href="css.html" >CSS</a></li>
+    </ol>
+
+    <h1 id="cssTest">CSS TEST</h1>
+  </body>
+</html>
